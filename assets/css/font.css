@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("/assets/fonts/Yekan.eot") format("eot"),
+    /* Super Modern Browsers */ url("/assets/fonts/Yekan.woff") format("woff");
+}
+@font-face {
+  font-family: "Yekan-regular";
+  font-weight: 600;
+  
+  src: url("/assets/fonts/yekan-regular.eot") format("eot"),
+    /* Super Modern Browsers */ url("/assets/fonts/yekan-regular.woff") format("woof");
+      
+}
+/* css reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Yekan";
+}
+button,
+textarea,
+input {
+  font-family: "Yekan";
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
